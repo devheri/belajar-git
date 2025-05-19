@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PrintTemplate name="TY" version="">
+    
+    <PrintLine name="Logo" title="" textsize="3" align="2" feedpaper="1000" > </PrintLine>
+    
+    <PrintLine name="Reprint" title="" textsize="1" align="2" feedpaper="0" ></PrintLine>
+    
+    <PrintLine title="" textsize="1" align="1" feedpaper="0" >--------------------商户存根--------------------</PrintLine>
+
+    <PrintLine name="MerName" title="商户名称:" textsize="3" align="1" feedpaper="0" ></PrintLine>
+
+    <PrintLine name="MerNum" title="商户号:" textsize="3" align="1" feedpaper="0" ></PrintLine>
+
+    <PrintLine name="TerNum" title="终端号:" textsize="3" align="1" feedpaper="0" ></PrintLine>
+    <PrintLine name="OperatorNum" title="操作员:" textsize="3" align="1" feedpaper="0" ></PrintLine>
+
+    <PrintLine title="" textsize="1" align="1" feedpaper="0" >-----------------------------------------------</PrintLine>
+
+    <PrintLine name="BatchNum" title="批次号:" textsize="3" align="1" feedpaper="0"></PrintLine>
+    <PrintLine name="VoucherNum" title="流水号:" textsize="3" align="1" feedpaper="0" ></PrintLine>
+
+    <PrintLine name="TradeDate" title="日期/时间:" textsize="3" align="1" feedpaper="0" ></PrintLine>
+    
+    <PrintLine title="" textsize="1" align="1" feedpaper="0" >-----------------------------------------------</PrintLine>
+    
+    <PrintLine name="TradeType" title="" textsize="3" align="1" feedpaper="0" ></PrintLine>
+
+    <PrintLine name="Amount" title="金额:RMB " textsize="3" align="1" feedpaper="0" ></PrintLine>
+    
+    <PrintLine title="" textsize="1" align="1" feedpaper="0" >--------------------商户存根--------------------</PrintLine>
+    <PrintLine title="" textsize="1" align="1" feedpaper="0" >本人确认以上交易，同意将其记入本卡账户          I ACKNOWLEDGE SATISFACTORY RECEIPT OF RELATIVE GOODS/SERVICES</PrintLine>
+
+</PrintTemplate>

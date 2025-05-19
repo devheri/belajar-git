@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+    <config name="现金" tradeCode="00001" msgType="" transactionDealingCode="" msg_25="" msg_60_1="" isFlushes="false" tradeTypeCode="" fields=""/>
+	<config name="消费" tradeCode="00002" msgType="0200" transactionDealingCode="000000" msg_25="00" msg_60_1="22" isFlushes="true" tradeTypeCode="01102101"
+	    fields="2,3,4,11,14,22,23,25,26,35,36,41,42,47,49,52,53,55,59,60,62,64"/>
+	<config name="撤销" tradeCode="00003" msgType="0200" transactionDealingCode="200000" msg_25="00" msg_60_1="23" isFlushes="true" tradeTypeCode="01104101"
+	    fields="2,3,4,11,14,22,23,25,26,35,36,37,38,41,42,49,52,53,60,61,64"/>
+	<config name="退货" tradeCode="00004" msgType="0220" transactionDealingCode="200000" msg_25="00" msg_60_1="25" isFlushes="false" tradeTypeCode="02004101"
+	    fields="2,3,4,11,14,22,23,25,26,35,36,37,41,42,49,52,53,60,61,62,63,64"/>
+	<config name="预授权" tradeCode="00151" msgType="0100" transactionDealingCode="030000" msg_25="06" msg_60_1="10" isFlushes="true" tradeTypeCode="01103101"
+	    fields="2,3,4,11,14,22,23,25,26,35,36,41,42,49,52,53,55,59,60,62,64"/>
+	<config name="预授权撤销" tradeCode="00251" msgType="0100" transactionDealingCode="200000" msg_25="06" msg_60_1="11" isFlushes="true" tradeTypeCode="01104102"
+	    fields="2,3,4,11,14,22,23,25,26,35,36,38,41,42,49,52,53,59,60,61,62,64"/>
+	<config name="预授权完成请求" tradeCode="00351" msgType="0200" transactionDealingCode="000000" msg_25="06" msg_60_1="20" isFlushes="true" tradeTypeCode="01103102"
+	    fields="2,3,4,11,14,22,23,25,26,35,36,38,41,42,49,52,53,59,60,61,62,64"/>
+	<config name="预授权完成撤销" tradeCode="00451" msgType="0200" transactionDealingCode="200000" msg_25="06" msg_60_1="21" isFlushes="true" tradeTypeCode="01104103"
+	    fields="2,3,4,11,14,22,23,25,26,35,36,37,38,41,42,49,52,53,59,60,61,64"/>
+	<config name="预授权完成通知" tradeCode="00551" msgType="0220" transactionDealingCode="000000" msg_25="06" msg_60_1="24" isFlushes="false" tradeTypeCode="02003101" fields=""/>
+	<config name="离线结算" tradeCode="00006" msgType="0220" transactionDealingCode="000000" msg_25="00" msg_60_1="30" isFlushes="false" tradeTypeCode="03003101" fields=""/>
+	<config name="结算调整" tradeCode="00007" msgType="0220" transactionDealingCode="000000" msg_25="00" msg_60_1="32" isFlushes="false" tradeTypeCode="03002102" fields=""/>
+	<config name="POS签到" tradeCode="00012" msgType="0800" transactionDealingCode="" msg_25="" msg_60_1="00" isFlushes="false" tradeTypeCode="04005101"
+	    fields="11,41,42,60,62,63"/>
+	<config name="收银员积分签到" tradeCode="00014" msgType="0820" transactionDealingCode="" msg_25="" msg_60_1="00" isFlushes="false" tradeTypeCode="04005104" fields=""/>
+	<config name="签退" tradeCode="00015" msgType="0820" transactionDealingCode="310000" msg_25="00" msg_60_1="00" isFlushes="false" tradeTypeCode="04005102"
+	    fields="11,41,42,60"/>
+	<config name="结算" tradeCode="00019" msgType="0500" transactionDealingCode="" msg_25="" msg_60_1="00" isFlushes="false" tradeTypeCode="04005103"
+		fields="11,41,42,48,49,60,63"/>
+	<config name="快速支付" tradeCode="00023" msgType="0200" transactionDealingCode="000000" msg_25="00" msg_60_1="34" isFlushes="false" tradeTypeCode="03002101" fields=""/>
+	<config name="普通支付" tradeCode="00024" msgType="0200" transactionDealingCode="000000" msg_25="00" msg_60_1="34" isFlushes="false" tradeTypeCode="03002101" fields=""/>
+	<config name="现金充值" tradeCode="00025" msgType="0200" transactionDealingCode="630000" msg_25="91" msg_60_1="46" isFlushes="false" tradeTypeCode="01106103"
+		fields="2,3,4,11,14,22,23,25,35,36,41,42,49,53,55,60,64"/>
+	<config name="指定账户圈存" tradeCode="00025" msgType="0200" transactionDealingCode="600000" msg_25="91" msg_60_1="45" isFlushes="false" tradeTypeCode="01106102"
+		fields=""/>
+	<config name="非指定账户圈存" tradeCode="00026" msgType="0200" transactionDealingCode="620000" msg_25="91" msg_60_1="47" isFlushes="false" tradeTypeCode="01106101" fields=""/>
+	<config name="现金充值撤销" tradeCode="00027" msgType="0200" transactionDealingCode="170000" msg_25="91" msg_60_1="51" isFlushes="true" tradeTypeCode="01104104" fields=""/>
+	<config name="脱机退货" tradeCode="00030" msgType="0220" transactionDealingCode="200000" msg_25="00" msg_60_1="27" isFlushes="false" tradeTypeCode="02004102" fields=""/>
+	<config name="分期付款消费" tradeCode="00035" msgType="0200" transactionDealingCode="000000" msg_25="64" msg_60_1="22" isFlushes="true" tradeTypeCode="01102102" fields=""/>
+	<config name="分期付款撤销" tradeCode="00036" msgType="0200" transactionDealingCode="200000" msg_25="64" msg_60_1="23" isFlushes="true" tradeTypeCode="01104105" fields=""/>
+	<config name="分期付款退货" tradeCode="00136" msgType="0220" transactionDealingCode="200000" msg_25="64" msg_60_1="25" isFlushes="false" tradeTypeCode="02004101" fields=""/>
+	<config name="余额查询" tradeCode="00037" msgType="0200" transactionDealingCode="310000" msg_25="00" msg_60_1="01" isFlushes="false" tradeTypeCode="01001101"
+	    fields="2,3,11,14,22,23,25,26,35,36,41,42,49,52,53,55,60,62,64"/>
+	<config name="发卡行积分消费" tradeCode="00038" msgType="0200" transactionDealingCode="000000" msg_25="65" msg_60_1="22" isFlushes="true" tradeTypeCode="01102106" fields=""/>
+	<config name="联盟积分消费" tradeCode="00039" msgType="0200" transactionDealingCode="000000" msg_25="65" msg_60_1="22" isFlushes="true" tradeTypeCode="01102104" fields=""/>
+	<config name="发卡行积分撤销" tradeCode="00040" msgType="0200" transactionDealingCode="200000" msg_25="65" msg_60_1="23" isFlushes="true" tradeTypeCode="01104111" fields=""/>
+	<config name="联盟积分撤销" tradeCode="00041" msgType="0200" transactionDealingCode="200000" msg_25="65" msg_60_1="23" isFlushes="true" tradeTypeCode="01104109" fields=""/>
+	<config name="联盟积分查询" tradeCode="00042" msgType="0200" transactionDealingCode="310000" msg_25="65" msg_60_1="03" isFlushes="false" tradeTypeCode="01001102" fields=""/>
+	<config name="联盟积分退货" tradeCode="00043" msgType="0220" transactionDealingCode="200000" msg_25="00" msg_60_1="25" isFlushes="false" tradeTypeCode="02004101" fields=""/>
+	<config name="预约消费" tradeCode="00046" msgType="0200" transactionDealingCode="000000" msg_25="67" msg_60_1="54" isFlushes="true" tradeTypeCode="01102105" fields=""/>
+	<config name="预约消费撤销" tradeCode="00047" msgType="0200" transactionDealingCode="200000" msg_25="67" msg_60_1="53" isFlushes="true" tradeTypeCode="01104110" fields=""/>
+	<config name="消费" tradeCode="00048" msgType="0200" transactionDealingCode="000000" msg_25="08" msg_60_1="22" isFlushes="true" tradeTypeCode="01102103" fields=""/>
+	<config name="消费撤销" tradeCode="00049" msgType="0200" transactionDealingCode="200000" msg_25="08" msg_60_1="23" isFlushes="true" tradeTypeCode="01104106" fields=""/>
+	<config name="退货" tradeCode="00050" msgType="0220" transactionDealingCode="200000" msg_25="08" msg_60_1="25" isFlushes="false" tradeTypeCode="02004103" fields=""/>
+	<config name="预授权" tradeCode="00051" msgType="0100" transactionDealingCode="030000" msg_25="18" msg_60_1="10" isFlushes="true" tradeTypeCode="01103103" fields=""/>
+	<config name="预授权撤销" tradeCode="00052" msgType="0100" transactionDealingCode="200000" msg_25="18" msg_60_1="11" isFlushes="true" tradeTypeCode="01104108" fields=""/>
+	<config name="预授权完成请求" tradeCode="00053" msgType="0200" transactionDealingCode="000000" msg_25="18" msg_60_1="20" isFlushes="true" tradeTypeCode="01103104" fields=""/>
+	<config name="预授权完成撤销" tradeCode="00054" msgType="0200" transactionDealingCode="200000" msg_25="18" msg_60_1="21" isFlushes="true" tradeTypeCode="01104107" fields=""/>
+	<config name="预授权完成通知" tradeCode="00055" msgType="0220" transactionDealingCode="000000" msg_25="18" msg_60_1="24" isFlushes="true" tradeTypeCode="02003102" fields=""/>
+	<config name="持卡人信息验证" tradeCode="00056" msgType="0100" transactionDealingCode="330000" msg_25="00" msg_60_1="01" isFlushes="false" tradeTypeCode="01008101" fields=""/>
+	<config name="磁条卡现金充值" tradeCode="00057" msgType="0200" transactionDealingCode="630000" msg_25="00" msg_60_1="48" isFlushes="false" tradeTypeCode="01006101" fields=""/>
+	<config name="磁条卡账户充值" tradeCode="00058" msgType="0200" transactionDealingCode="400000" msg_25="66" msg_60_1="49" isFlushes="false" tradeTypeCode="01006102" fields=""/>
+	<config name="消费" tradeCode="00081" msgType="0200" transactionDealingCode="000000" msg_25="00" msg_60_1="22" isFlushes="true" tradeTypeCode="01102101" fields=""/>
+	<config name="预授权" tradeCode="00082" msgType="0100" transactionDealingCode="030000" msg_25="06" msg_60_1="10" isFlushes="true" tradeTypeCode="01103101" fields=""/>
+	<config name="电子现金脱机消费" tradeCode="" msgType="0200" transactionDealingCode="000000" msg_25="00" msg_60_1="36" isFlushes="false" tradeTypeCode="03002101" fields=""/>
+	<config name="结算调整-金额调整" tradeCode="" msgType="0220" transactionDealingCode="000000" msg_25="00" msg_60_1="32" isFlushes="false" tradeTypeCode="03002102" fields=""/>
+	<config name="结算调整-小费" tradeCode="" msgType="0220" transactionDealingCode="000000" msg_25="00" msg_60_1="34" isFlushes="false" tradeTypeCode="03002103" fields=""/>
+	<config name="离线结算-POS预授权" tradeCode="" msgType="0220" transactionDealingCode="000000" msg_25="00" msg_60_1="30" isFlushes="false" tradeTypeCode="03003101" fields=""/>
+	<config name="离线结算-电话授权" tradeCode="" msgType="0220" transactionDealingCode="000000" msg_25="00" msg_60_1="30" isFlushes="false" tradeTypeCode="03003102" fields=""/>
+	<config name="离线结算-代授权" tradeCode="" msgType="0220" transactionDealingCode="000000" msg_25="00" msg_60_1="30" isFlushes="false" tradeTypeCode="03003103" fields=""/>
+	<!-- 扫码交易无冲正 -->
+    <config name="扫码付" tradeCode="00089" msgType="0200" transactionDealingCode="000000" msg_25="00" msg_60_1="22" isFlushes="false" tradeTypeCode="04000001"
+        fields="3,4,11,22,25,41,42,49,59,60,64"/>
+    <config name="扫码付撤销" tradeCode="00086" msgType="0200" transactionDealingCode="200000" msg_25="00" msg_60_1="23" isFlushes="false" tradeTypeCode="04000001"
+        fields="3,4,11,22,25,37,41,42,49,59,60,61,64"/>
+    <config name="扫码付退货" tradeCode="00087" msgType="0220" transactionDealingCode="200000" msg_25="00" msg_60_1="25" isFlushes="false" tradeTypeCode="00000000"
+        fields="3,4,11,22,25,37,41,42,49,59,60,61,63,64"/>
+	<config name="微信主扫" tradeCode="00091" msgType="9200" transactionDealingCode="320000" msg_25="00" msg_60_1="00" isFlushes="false" tradeTypeCode="00000000" fields=""/>
+	<config name="支付宝主扫" tradeCode="00093" msgType="9200" transactionDealingCode="320000" msg_25="00" msg_60_1="00" isFlushes="false" tradeTypeCode="00000000" fields=""/>
+	<config name="微信被扫" tradeCode="00092" msgType="9200" transactionDealingCode="330000" msg_25="01" msg_60_1="97" isFlushes="false" tradeTypeCode="00000000"
+	    fields="3,4,11,12,13,22,25,41,42,60,64"/>
+	<config name="支付宝被扫" tradeCode="00094" msgType="9200" transactionDealingCode="330000" msg_25="01" msg_60_1="97" isFlushes="false" tradeTypeCode="00000000"
+	    fields="3,4,11,12,13,22,25,41,42,60,64"/>
+
+	<config name="磁条卡参数下载" tradeCode="01761" msgType="" transactionDealingCode="" msg_25="" msg_60_1="" isFlushes="false" tradeTypeCode="00000000" fields=""/>
+	<config name="IC卡公钥下载" tradeCode="02761" msgType="" transactionDealingCode="" msg_25="" msg_60_1="" isFlushes="false" tradeTypeCode="00000000" fields=""/>
+	<config name="IC卡参数下载" tradeCode="03761" msgType="" transactionDealingCode="" msg_25="" msg_60_1="" isFlushes="false" tradeTypeCode="00000000" fields=""/>
+	<config name="非接业务参数下载" tradeCode="04761" msgType="" transactionDealingCode="" msg_25="" msg_60_1="" isFlushes="false" tradeTypeCode="00000000" fields=""/>
+	<config name="参数下载" tradeCode="00761" msgType="0800" transactionDealingCode="" msg_25="" msg_60_1="00" isFlushes="false" tradeTypeCode="04005301" fields=""/>
+	<config name="回响测试" tradeCode="00762" msgType="0820" transactionDealingCode="" msg_25="" msg_60_1="00" isFlushes="false" tradeTypeCode="04005402" fields=""/>
+	<config name="黑名单下载" tradeCode="00763" msgType="" transactionDealingCode="" msg_25="" msg_60_1="" isFlushes="false" tradeTypeCode="00000000" fields=""/>
+    <config name="POS参数传递" tradeCode="11761" msgType="0800" transactionDealingCode="010000" msg_25="" msg_60_1="00" isFlushes="false" tradeTypeCode="00000000"
+        fields="41,42,60,62"/>
+	<config name="POS状态上送" tradeCode="12761" msgType="0820" transactionDealingCode="010000" msg_25="" msg_60_1="00" isFlushes="false" tradeTypeCode="00000000"
+	    fields="41,42,60,62"/>
+	<config name="下载结束" tradeCode="13761" msgType="0800" transactionDealingCode="010000" msg_25="" msg_60_1="00" isFlushes="false" tradeTypeCode="00000000"
+		fields="41,42,60"/>
+
+	<config name="IC卡密钥下载" tradeCode="00095" msgType="9300" transactionDealingCode="020000" msg_25="00" msg_60_1="" isFlushes="false" tradeTypeCode="00000000" fields=""/>
+
+</configs>

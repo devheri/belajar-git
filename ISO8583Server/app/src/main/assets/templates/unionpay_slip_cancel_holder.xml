@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PrintTemplate name="TY" version="">
+
+    <PrintLine name="Logo" align="1" feedpaper="1000" textsize="3" title=""></PrintLine>
+
+    <PrintLine name="Reprint" align="2" feedpaper="0" textsize="1" title=""></PrintLine>
+
+    <PrintLine align="1" feedpaper="0" textsize="1" title="">-------------------持卡人存根-------------------</PrintLine>
+    <PrintLine name="MerName" align="1" feedpaper="0" textsize="3" title="商户名称:"></PrintLine>
+
+    <PrintLine name="MerNum" align="1" feedpaper="0" textsize="3" title="商户号:"></PrintLine>
+
+    <PrintLine name="TerNum" title="终端号:" textsize="3" align="1" feedpaper="0" ></PrintLine>
+    <PrintLine name="OperatorNum" title="操作员:" textsize="3" align="1" feedpaper="0" ></PrintLine>
+
+    <PrintLine name="ACQNum" align="1" feedpaper="0" textsize="3" title="收单方:"></PrintLine>
+
+    <PrintLine name="ISSNum" title="发卡方:" textsize="3" align="1" feedpaper="0" ></PrintLine>
+    <PrintLine name="ExpDate" title="有效期:" textsize="3" align="1" feedpaper="0"></PrintLine>
+
+    <PrintLine align="1" feedpaper="0" textsize="3" title="卡号："></PrintLine>
+    <PrintLine name="CardNum" align="1" feedpaper="0" textsize="3" title="  "></PrintLine>
+
+    <PrintLine align="1" feedpaper="0" textsize="3" title="交易类型:"></PrintLine>
+    <PrintLine name="TradeType" align="2" feedpaper="0" textsize="13" title=""></PrintLine>
+
+    <PrintLine name="BatchNum" title="批次号:" textsize="3" align="1" feedpaper="0"></PrintLine>
+    <PrintLine name="VoucherNum" title="流水号:" textsize="3" align="1" feedpaper="0" ></PrintLine>
+
+    <PrintLine name="TradeDate" title="日期/时间:" textsize="3" align="1" feedpaper="0" ></PrintLine>
+
+    <PrintLine name="RefNum" title="检索参考号:" textsize="3" align="1" feedpaper="0"></PrintLine>
+    <PrintLine name="AuthCode" title="授权码:" textsize="3" align="1" feedpaper="0"></PrintLine>
+
+    <PrintLine name="Amount" title="金额:RMB " textsize="13" align="1" feedpaper="0" ></PrintLine>
+
+    <PrintLine align="1" feedpaper="0" textsize="3" title="金额:"></PrintLine>
+    <PrintLine name="Amount" align="1" feedpaper="0" textsize="13" title="    RMB "></PrintLine>
+
+    <PrintLine name="Ref_Line" align="1" feedpaper="0" textsize="1" title="-----------------------------------------------"></PrintLine>
+    <PrintLine name="Ref_IcReference" align="1" feedpaper="0" textsize="2"
+        title="备注/REFERENCE"></PrintLine>
+    <PrintLine name="Ref_OldVoucherNum" align="1" feedpaper="0" textsize="1"
+        title="原流水号："></PrintLine>
+    <PrintLine name="Ref_OldRefNum" align="1" feedpaper="0" textsize="1"
+        title="原检索参考号："></PrintLine>
+    <PrintLine name="Ref_OldTradeDate" align="1" feedpaper="0" textsize="1"
+        title="原交易日期："></PrintLine>
+    <PrintLine name="Ref_OldAuthCode" align="1" feedpaper="0" textsize="1"
+        title="原授权码："></PrintLine>
+    <PrintLine name="Sale_tag35" align="1" feedpaper="0" textsize="1" title=""></PrintLine>
+    <PrintLine name="Sale_tag33" align="1" feedpaper="0" textsize="1" title=""></PrintLine>
+    <PrintLine name="iss" align="1" feedpaper="0" textsize="1" title=""></PrintLine>
+    <PrintLine name="cpu" align="1" feedpaper="0" textsize="1" title=""></PrintLine>
+    <PrintLine name="aqu" align="1" feedpaper="0" textsize="1" title=""></PrintLine>
+
+    <PrintLine align="1" feedpaper="0" textsize="1" title="">-------------------持卡人存根-------------------</PrintLine>
+
+</PrintTemplate>

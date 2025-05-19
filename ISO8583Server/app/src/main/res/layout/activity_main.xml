@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_constraintHeight_percent="0.25"
+    app:layout_constraintWidth_percent="0.25"
+    android:id="@+id/layarutama"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D4D8EA"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layarutamamain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/txt_ip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="ISO8583 SERVER TESTING"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_monitor_server"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_margin="10dp"
+            android:background="#DFD7D4"
+            android:padding="10dp"
+            android:textColor="#F60909"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/pembatas"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#0D0E0E" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/check_kirim_respon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#D50000"
+                android:checked="true"
+                android:paddingEnd="20dp"
+                android:text="Kirim Respon"
+                android:textColorLink="#D50000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txt_delayresponse_delay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delay :"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edt_delayresponse"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="0"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txt_delayresponse_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="De 39 : "
+                android:paddingLeft="10dp"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edt_de39"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="00"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            app:layout_constraintHeight_percent="0.75"
+            android:id="@+id/rc_client"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="#b3cca9" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_control"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="#09375C"
+                android:gravity="center"
+                android:text="Close"
+                android:textColor="#E4D069"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"
+                android:backgroundTint="#FA0606"
+                android:gravity="center"
+                android:text="Clear"
+                android:textColor="#FFFF00"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btn_load_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="#1B57EF"
+                android:gravity="center"
+                android:text="Load"
+                android:textColor="#FFFF00"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btn_resetdata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="#FFD600"
+                android:gravity="center"
+                android:text="Reset"
+                android:textColor="#030617"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

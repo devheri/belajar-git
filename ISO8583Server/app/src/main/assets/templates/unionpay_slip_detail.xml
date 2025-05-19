@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PrintTemplate name="TY" version="">
+    
+    <PrintLine title="" textsize="13" align="2" feedpaper="1000" >银联签购单</PrintLine>
+    
+    <PrintLine title="" textsize="2" align="1" feedpaper="0" >---------终端交易明细单--------</PrintLine>
+
+    <PrintLine name="MerName" title="商户名称:" textsize="3" align="1" feedpaper="0" ></PrintLine>
+    <PrintLine name="MerNum" title="商户编号:" textsize="3" align="1" feedpaper="0" ></PrintLine>
+    <PrintLine name="TerNum" title="终端编号:" textsize="3" align="1" feedpaper="0" ></PrintLine>
+    <PrintLine name="OperatorNum" title="操作员号:" textsize="3" align="1" feedpaper="0" ></PrintLine>
+    <PrintLine name="BatchNum" title="批次号:" textsize="3" align="1" feedpaper="0" ></PrintLine>
+
+    <PrintLine title="凭证号  类型  卡号  金额  授权码" textsize="3" align="1" feedpaper="500" ></PrintLine>
+    
+    <PrintLine name="Records" title="" textsize="2" align="1" feedpaper="1000" ></PrintLine>
+    <PrintLine title="交易类型：S-消费 R-退货 P-预授权完成（请求） C-预授权完成（通知） L-离线结算 T-分期付款 B-积分消费" textsize="2" align="1" feedpaper="0" ></PrintLine>
+    <PrintLine title=" " textsize="2" align="2" feedpaper="1000" ></PrintLine>
+    <PrintLine name="QRMerNum" title="二维码商户编号:" textsize="3" align="1" feedpaper="100" ></PrintLine>
+    <PrintLine title="" textsize="3" align="2" feedpaper="1000" >-------------------------------</PrintLine>
+    <PrintLine title="凭证号 类型 平台订单号      金额" textsize="3" align="1" feedpaper="500" ></PrintLine>
+    <PrintLine name="ScanRecords" title="" textsize="2" align="1" feedpaper="100" ></PrintLine>
+    <PrintLine title=" " textsize="3" align="1" feedpaper="100" ></PrintLine>
+    <PrintLine title=" " textsize="3" align="1" feedpaper="100" ></PrintLine>
+    <PrintLine title=" " textsize="3" align="1" feedpaper="100" ></PrintLine>
+    <PrintLine title=" " textsize="3" align="1" feedpaper="100" ></PrintLine>
+</PrintTemplate>

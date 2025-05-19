@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PrintTemplate name="QB_MER_BANK" version="">
+
+    <PrintLine name="Logo" title="" textsize="3" align="1" feedpaper="1000" > </PrintLine>
+    <PrintLine name="Reprint" title="" textsize="1" align="2" feedpaper="0" ></PrintLine>
+
+    <PrintLine title="" textsize="1" align="1" feedpaper="0" >-------------------持卡人存根-------------------</PrintLine>
+
+    <PrintLine title="商户名称:"  name="MerName" textsize="3" align="1" feedpaper="0" ></PrintLine>
+
+    <PrintLine title="商户编号:" name="MerNum" textsize="3" align="1" feedpaper="0" ></PrintLine>
+
+    <PrintLine title="终端编号:" name="TerNum" textsize="3" align="1" feedpaper="0" ></PrintLine>
+
+    <PrintLine title="流水号：" name="VoucherNum"  textsize="3" align="1" feedpaper="0" ></PrintLine>
+
+    <PrintLine title="交易类别:" name="TradeType" textsize="3" align="1" feedpaper="0" ></PrintLine>
+
+    <PrintLine title="交易渠道:" name="TradeWay" textsize="3" align="1" feedpaper="0" ></PrintLine>
+
+    <!--    <PrintLine name="PayCode" title="付款码号： " textsize="3" align="1" feedpaper="500" ></PrintLine>-->
+    <PrintLine name="orderNumber" title="商户订单号:" textsize="3" align="1" feedpaper="0" ></PrintLine>
+    <PrintLine title="平台订单号:" name="TransactionId"  textsize="3" align="1" feedpaper="0" ></PrintLine>
+    <PrintLine name="Image1" title="" textsize="3" align="2" feedpaper="0" ></PrintLine>
+    <PrintLine title="可在支持的商户扫码退款"  name="QrCodeTips"  textsize="2" align="2" feedpaper="0" ></PrintLine>
+
+
+    <PrintLine title="日期/时间:" name="TradeDate" textsize="3" align="1" feedpaper="0" ></PrintLine>
+    <!--<PrintLine name="TradeDate" title="" textsize="3" align="1" feedpaper="200" ></PrintLine>-->
+
+    <PrintLine name="Amount" title="金额:RMB " textsize="13" align="1" feedpaper="0" ></PrintLine>
+
+    <PrintLine title="" textsize="1" align="1" feedpaper="0" >-------------------持卡人存根-------------------</PrintLine>
+</PrintTemplate>
